@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    box-shadow: 5px 5px 5px orchid;
+    height: 80px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.link a {
+    color: azure;
+    font-size: 20px;
+    font-weight: 600;
+}
